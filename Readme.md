@@ -1,5 +1,5 @@
 
-# slurp
+# stream-slurp
 
   Read entire data from ReadableStream
 
@@ -12,7 +12,7 @@ Read entire data from ReadableStream.
 Example:
 
 ```javascript
-var slurp = require('slurp').slurp;
+var slurp = require('stream-slurp').slurp;
 // Read from stream
 slurp(stream, function(err, data){
 	if(err) 
